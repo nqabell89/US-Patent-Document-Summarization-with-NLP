@@ -2,6 +2,7 @@ import string
 import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
 from spacy.lang.en import English
+import re
 
 def spacy_tokenizer(text):
     
