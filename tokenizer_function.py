@@ -14,7 +14,7 @@ def spacy_tokenizer(text):
     stop_words = spacy.lang.en.stop_words.STOP_WORDS
 
     # Adding words to remove in addition to stopwords
-    add_stopwords = ['machine', 'learning'] # All patents in dataset contain these terms
+    add_stopwords = ['machine', 'learning']
     
     # remove numbers and special characters
     pattern = '[0-9]'
